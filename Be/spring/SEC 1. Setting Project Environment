@@ -2,9 +2,15 @@ https://start.spring.io 에서 spring project를 생성할 수 있음
 
 Dependencies : 어떤 라이브러리를 가져와서 쓸지 추가하는 작업
 
+resources에는 자바 파일을 제외한 html이나 설정파일들이 들어가 있음
+
 Dependencies에서 원하는 라이브러리를 추가하면 관련된 필요한 라이브러리들(spring-core, starter)을 다 알아서 추가함
 
 스프링이 자바 웹, 앱 개발에 있어 전반적인걸 지원해주기 때문에 양이 방대함 -> 찾아서 쓰는 능력을 필요
   spring.io -> Projects -> Spring Boot -> LEARN -> 쓰고있는 버전의 Reference Doc을 들어가 검색
 
 스프링 부트는 static과 templated welcome pages들을 지원. 먼저 static에서 index.html을 찾아보고 없으면 index template를 찾아봄 찾았다면 자동으로 welcome page로 사용
+
+컨트롤러에서 리턴 값으로 문자(viewName)를 반환하면 뷰 리졸버(viewResolver)가 화면을 찾아서 처리한다
+	- 스프링 부트 템플릿 엔진 기본 viewName매핑
+	- resources:templates에 (viewName).html
