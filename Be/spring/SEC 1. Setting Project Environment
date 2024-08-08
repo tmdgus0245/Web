@@ -14,3 +14,11 @@ Dependencies에서 원하는 라이브러리를 추가하면 관련된 필요한
 컨트롤러에서 리턴 값으로 문자(viewName)를 반환하면 뷰 리졸버(viewResolver)가 화면을 찾아서 처리한다
 	- 스프링 부트 템플릿 엔진 기본 viewName매핑
 	- resources:templates에 (viewName).html
+
+CMD로 빌드하는법
+spring 폴더로 들어가 gradlew build -> cd build -> cd libs -> libs에 있는 파일중 plain이 없는 파일을 java -jar hello-spring-0.0.1-SNAPSHOT.jar 하면 실행됨
+잘 안될 시) gradlew build 할때 gradlew clean build를 하자 (clean : build 파일을 아예 제거)
+
+정적 컨텐츠: html 파일을 변함없이 그냥 보여주는 것
+MVC와 템플릿 엔진: html 파일을 서버에서 조금 변형을 시켜 보여주는 것
+API: 안드로이드나 아이폰 클라이언트랑 개발을 해야할 경우 서버입장에서는 json 포맷으로 데이터를 전달 (서버끼리 통신할 때, vue, react)
