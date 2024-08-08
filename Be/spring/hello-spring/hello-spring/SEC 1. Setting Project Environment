@@ -18,9 +18,3 @@ Dependencies에서 원하는 라이브러리를 추가하면 관련된 필요한
 CMD로 빌드하는법
 spring 폴더로 들어가 gradlew build -> cd build -> cd libs -> libs에 있는 파일중 plain이 없는 파일을 java -jar hello-spring-0.0.1-SNAPSHOT.jar 하면 실행됨
 잘 안될 시) gradlew build 할때 gradlew clean build를 하자 (clean : build 파일을 아예 제거)
-
-정적 컨텐츠: html 파일을 변함없이 그냥 보여주는 것
-MVC와 템플릿 엔진: html 파일을 서버에서 조금 변형을 시켜 보여주는 것
-API: 안드로이드나 아이폰 클라이언트랑 개발을 해야할 경우 서버입장에서는 json 포맷으로 데이터를 전달 (서버끼리 통신할 때, vue, react)
-
-정적 컨텐츠 요청이 내장 톰켓 서버로 들어오고 스프링한테 넘김 스프링은 관련 컨트롤러를 먼저 찾아보고 static에서 찾아봄 찾은 html파일을 반환

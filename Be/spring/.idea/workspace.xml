@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40144a70-7eb2-490f-bace-b33d335eeb79" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/SEC 2. Spring Web Development Foundation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring/hello-spring/src/main/resources/templates/hello-template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEC 1. Setting Project Environment" beforeDir="false" afterPath="$PROJECT_DIR$/SEC 1. Setting Project Environment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring/hello-spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring/hello-spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring/hello-spring/src/main/java/hello/hello_spring/contoller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring/hello-spring/src/main/java/hello/hello_spring/contoller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2kKBzUAJSwpzStIacDa73AnKlQl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -26,6 +35,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/tmdgu/Desktop/Web/Be/spring/hello-spring",
     "node.js.detected.package.eslint": "true",
@@ -153,6 +163,9 @@
       <updated>1723022649669</updated>
       <workItem from="1723022650672" duration="639000" />
       <workItem from="1723101129941" duration="676000" />
+      <workItem from="1723110263400" duration="977000" />
+      <workItem from="1723111903601" duration="184000" />
+      <workItem from="1723112265976" duration="214000" />
     </task>
     <servers />
   </component>

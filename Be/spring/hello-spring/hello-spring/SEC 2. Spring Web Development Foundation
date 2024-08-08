@@ -1,0 +1,11 @@
+정적 컨텐츠: html 파일을 변함없이 그냥 보여주는 것
+MVC와 템플릿 엔진: html 파일을 서버에서 조금 변형을 시켜 보여주는 것
+API: 안드로이드나 아이폰 클라이언트랑 개발을 해야할 경우 서버입장에서는 json 포맷으로 데이터를 전달 (서버끼리 통신할 때, vue, react)
+
+정적 컨텐츠 요청이 내장 톰켓 서버로 들어오고 스프링한테 넘김 스프링은 관련 컨트롤러를 먼저 찾아보고 static에서 찾아봄 찾은 html파일을 반환
+
+MVC와 템플릿 엔진: Model, View, Controller
+View는 화면과 관련된 일만 Controller가 비즈니스 로직과 관련된 처리를 하여 View가 필요로 하는 것들을 Model에 넘겨줌
+
+<p th:text="'hello ' + ${name}">hello! empty</p>
+thymeleaf를 이용하면 서버를 통해 html을 열어보지 않아도 html을 열었을 때 hello! empty 부분이 출력됨 서버를 통해 열었을 시 th:~~ 로 치환

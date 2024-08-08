@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27c447bf-bd1d-4131-986a-d0122dca653d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/hello-static.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SEC 2. Spring Web Development Foundation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SEC 1. Setting Project Environment" beforeDir="false" afterPath="$PROJECT_DIR$/../../SEC 1. Setting Project Environment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hello-spring.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hello_spring/contoller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hello_spring/contoller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +22,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-spring" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.hello-spring 빌드.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -88,6 +110,7 @@
       <updated>1723022436211</updated>
       <workItem from="1723022437242" duration="211000" />
       <workItem from="1723109880011" duration="381000" />
+      <workItem from="1723112090087" duration="173000" />
     </task>
     <servers />
   </component>
